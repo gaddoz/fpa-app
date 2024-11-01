@@ -23,6 +23,7 @@ export default function UpdateUserProfileForm({
     >
       <Label htmlFor="username">First Name</Label>
       <Input
+        id="username"
         name="username"
         type="text"
         required
@@ -32,6 +33,7 @@ export default function UpdateUserProfileForm({
 
       <Label htmlFor="last_name">Last Name</Label>
       <Input
+        id="last_name"
         name="last_name"
         type="text"
         required
@@ -41,6 +43,7 @@ export default function UpdateUserProfileForm({
 
       <Label htmlFor="date_of_birth">Date of birth</Label>
       <Input
+        id="date_of_birth"
         name="date_of_birth"
         type="date"
         required

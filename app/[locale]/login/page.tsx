@@ -18,6 +18,7 @@ export default function Login({
         </Label>
         <Input
           className="rounded-md px-4 py-2 bg-inherit border mb-6"
+          id="email"
           name="email"
           placeholder="you@example.com"
           required
@@ -27,6 +28,7 @@ export default function Login({
         </Label>
         <Input
           className="rounded-md px-4 py-2 bg-inherit border mb-6"
+          id="password"
           type="password"
           name="password"
           placeholder="••••••••"

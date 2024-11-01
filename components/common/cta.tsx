@@ -9,13 +9,14 @@ import { Link } from "@/i18n/routing";
 export default function CTA({ children }: PropsWithChildren) {
   return (
     <Card className="container p-4 flex justify-between items-center text-base">
-      <Label>
+      <Label htmlFor="finalise">
         Complete your profile information to be able to create and attend to
         events.
       </Label>
       <Link
         className={buttonVariants({ variant: "default" })}
         href="/user-profile/update"
+        id="finalise"
       >
         Finalise
       </Link>
